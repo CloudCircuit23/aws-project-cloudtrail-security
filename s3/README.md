@@ -1,0 +1,1 @@
+# The following is the AWS S3 Bucket that will store our CloudTrail Logs.
