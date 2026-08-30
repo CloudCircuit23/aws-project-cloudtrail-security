@@ -5,3 +5,4 @@
 - CloudTrail module uses S3 module as it's source for the CloudTrail destination bucket name.
 - The CloudTrail module depends on the S3 bucket being created before CloudTrail can be configured to deliver logs.
 - The S3 module exposes the bucket name through an output
+- CloudTrail module is dynamically referencing the S3 bucket created by the S3 module instead of hardcoding the bucket name.
